@@ -57,9 +57,11 @@ Contains supplementary scripts for analyzing dataset distributions.
 ## Citation
 If you use this code or our method in your research, please cite our ICICS 2026 paper:
 
+```bibtex
 @inproceedings{niwase2026benign,
   title={Benign Activity Filter: A Benign Activity Extraction Method for Efficient Provenance-based Log Analysis},
   author={Ryo Niwase and Taishin Saito and Kuniyasu Suzaki and Masaki Hashimoto},
   booktitle={The 28th International Conference on Information and Communications Security (ICICS 2026)},
   year={2026}
 }
+```
