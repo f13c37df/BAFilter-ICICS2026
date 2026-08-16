@@ -18,6 +18,7 @@ The scripts evaluate the DARPA Transparent Computing (TC) Dataset:
 
 ## Repository Structure
 
+```text
 BAFilter-ICICS2026/
 ├── phase1_extraction/          # Data preprocessing scripts (Dataset/OS-dependent)
 ├── phase2_feature_extraction/  # Vectorization and node-set construction
@@ -26,6 +27,7 @@ BAFilter-ICICS2026/
 ├── tools/                      # Dataset analysis and conversion utilities
 ├── ground_truth/               # Malicious node UUID lists (IoCs)
 └── README.md
+```
 
 ## Implementation Notes & Instructions
 
