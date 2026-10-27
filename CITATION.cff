@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite our paper."
+title: "BAFilter: Benign Activity Filter"
+authors:
+  - family-names: Niwase
+    given-names: Ryo
+  - family-names: Saito
+    given-names: Taishin
+  - family-names: Suzaki
+    given-names: Kuniyasu
+  - family-names: Hashimoto
+    given-names: Masaki
+license: MIT
+repository-code: "https://github.com/f13c37df/BAFilter-ICICS2026"
+preferred-citation:
+  type: conference-paper
+  title: "Benign Activity Filter: A Benign Activity Extraction Method for Efficient Provenance-Based Log Analysis"
+  authors:
+    - family-names: Niwase
+      given-names: Ryo
+    - family-names: Saito
+      given-names: Taishin
+    - family-names: Suzaki
+      given-names: Kuniyasu
+    - family-names: Hashimoto
+      given-names: Masaki
+  collection-title: "Information and Communications Security (ICICS 2026)"
+  collection-type: proceedings
+  conference:
+    name: "28th International Conference on Information and Communications Security (ICICS 2026)"
+  publisher:
+    name: Springer
+  volume: 17217
+  start: 80
+  end: 100
+  year: 2027
+  doi: "10.1007/978-981-92-6857-3_5"
