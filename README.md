@@ -1,6 +1,6 @@
 # BAFilter: Benign Activity Filter
 
-This repository provides the official implementation of the Benign Activity Filter (BAFilter), a pre-processor designed for Efficient Provenance-based Log Analysis. It was accepted at the 28th International Conference on Information and Communications Security (ICICS 2026).
+This repository provides the official implementation of the Benign Activity Filter (BAFilter), a pre-processor designed for Efficient Provenance-based Log Analysis. It was published in the proceedings of the 28th International Conference on Information and Communications Security (ICICS 2026), Lecture Notes in Computer Science, vol. 17217 ([DOI: 10.1007/978-981-92-6857-3_5](https://doi.org/10.1007/978-981-92-6857-3_5)).
 
 BAFilter aims to mitigate the "dependency explosion" problem in Data Provenance. It utilizes natural language processing (FastText) to vectorize activity content and removes frequently occurring benign activities based on cosine similarity, effectively shrinking the search space placed before a detector.
 
@@ -75,9 +75,15 @@ If you use this code or our method in your research, please cite our ICICS 2026 
 
 ```bibtex
 @inproceedings{niwase2026benign,
-  title={Benign Activity Filter: A Benign Activity Extraction Method for Efficient Provenance-based Log Analysis},
-  author={Ryo Niwase and Taishin Saito and Kuniyasu Suzaki and Masaki Hashimoto},
-  booktitle={The 28th International Conference on Information and Communications Security (ICICS 2026)},
-  year={2026}
+  title     = {Benign Activity Filter: A Benign Activity Extraction Method for Efficient Provenance-Based Log Analysis},
+  author    = {Niwase, Ryo and Saito, Taishin and Suzaki, Kuniyasu and Hashimoto, Masaki},
+  editor    = {Su, Chunhua and Conti, Mauro and Cao, Yang and Omote, Kazumasa},
+  booktitle = {Information and Communications Security (ICICS 2026)},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {17217},
+  pages     = {80--100},
+  publisher = {Springer, Singapore},
+  year      = {2027},
+  doi       = {10.1007/978-981-92-6857-3_5}
 }
 ```
